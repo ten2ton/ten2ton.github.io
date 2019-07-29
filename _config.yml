@@ -5,3 +5,7 @@ url: "http://ten2ton.github.io/"
 lsi: false
 
 permalink: pretty
+
+#build settings
+markdown: kramdown
+theme: minima
