@@ -7,22 +7,30 @@ weight: 80
 ---
 
 # Contribute to Kubernetes docs
+# 助力 Kubernetes 文档
 
 If you would like to help contribute to the Kubernetes documentation or website,
 we're happy to have your help! Anyone can contribute, whether you're new to the
 project or you've been around a long time, and whether you self-identify as a
 developer, an end user, or someone who just can't stand seeing typos.
+如果您想为 Kubernetes 的文档或网站出一份力,我们很高兴得到您的帮助!无论您是第一次接触这个项目，或者已经有所了解,无论您认为自己是一名开发者，或是一名终端用户,又或者您仅仅是因为无法忍受看到文档中的拼写错误，都可以做出贡献。
 
-For information on the Kubernetes documentation style guide, see the [style guide](/docs/contribute/style/style-guide/).
-
-{{% capture body %}}
+For information on the Kubernetes documentation style guide, see the [style guide].
+有关 Kubernetes 文档样式指南的信息,请参阅样式指南。
+  - [Types of docs contributors]
+  文档贡献者的类型
+  - [Ways to contribute to documentation]
+  文档贡献方式
+  - [Additional ways to contribute]
+  其他贡献方式
 
 ## Types of docs contributors
+## 文档贡献者的类型
 
-- A _member_ of the Kubernetes organization who has [signed the CLA](/docs/contribute/start#sign-the-cla)
-  and contributed some time and effort to the project. See
-  [Community membership](https://github.com/kubernetes/community/blob/master/community-membership.md)
-  for specific criteria for membership.
+- A _member_ of the Kubernetes organization who has [signed the CLA] and contributed some time and effort to the project. See [Community membership] for specific criteria for membership.
+  Kubernetes 组织成员,签署过 CLA 协议,为该项目付出了时间和精力。有关成员资格的特定条件,请参阅社区成员资格。
+SIG 文档审阅者是 Kubernetes 组织的成员,他已表示有兴趣审阅文档拉取请求,并且已由 SIG 文档审批器添加到 GitHub 存储库中的相应 GitHub 组和文件中。OWNERS
+SIG 文档审批者是信誉良好的成员,他表现出对项目的持续承诺。审批者可以代表 Kubernetes 组织合并拉取请求和发布内容。批准人还可以代表大型 Kubernetes 社区中的 SIG 文档。SIG 文档审批程序的某些职责(如协调发布)需要大量时间承诺。
 - A SIG Docs _reviewer_ is a member of the Kubernetes organization who has
   expressed interest in reviewing documentation pull requests and who has been
   added to the appropriate GitHub group and `OWNERS` files in the GitHub
@@ -35,15 +43,16 @@ For information on the Kubernetes documentation style guide, see the [style guid
   require a significant time commitment.
 
 ## Ways to contribute to documentation
+## 文档贡献方式
 
 This list is divided into things anyone can do, things Kubernetes organization
 members can do, and things that require a higher level of access and familiarity
 with SIG Docs processes. Contributing consistently over time can help you
 understand some of the tooling and organizational decisions that have already
-been made.
+been made.此列表分为任何人都可以做的事情、Kubernetes 组织成员可以做的事情以及需要更高级别的访问和对 SIG Docs 流程的熟悉程度。随着时间推移不断做出贡献可以帮助您了解已经做出的一些工具和组织决策。
 
 This is not an exhaustive list of ways you can contribute to the Kubernetes
-documentation, but it should help you get started.
+documentation, but it should help you get started.这不是您可以为 Kubernetes 文档做出贡献的详尽列表,但它应该可以帮助您入门。
 
 - [Anyone](/docs/contribute/start/)
   - Open actionable issues
@@ -51,6 +60,29 @@ documentation, but it should help you get started.
   - Improve existing docs
   - Bring up ideas for improvement on [Slack](http://slack.k8s.io/) or the [SIG docs mailing list](https://groups.google.com/forum/#!forum/kubernetes-sig-docs)
   - Improve docs accessibility
+  任何人
+打开可操作的问题
+成员
+改进现有文档
+提出改进Slack或 SIG文档邮件列表的想法
+提高文档的可访问性
+提供有关 PR 的非约束性反馈
+写博客文章或案例研究
+评论家
+记录新功能
+会审和分类问题
+审核 PR
+创建图表、图形资产和可嵌入截屏/视频
+定位
+作为文档代表为其他存储库做出贡献
+在代码中编辑面向用户的字符串
+改进代码注释,Godoc
+批准人
+通过批准和合并 PR 发布参与者内容
+作为文档代表参与 Kubernetes 发布团队
+建议改进样式指南
+建议文档测试的改进
+建议改进库贝内特斯网站或其他工具
   - Provide non-binding feedback on PRs
   - Write a blog post or case study
 - [Reviewer](/docs/contribute/intermediate/)
@@ -71,8 +103,8 @@ documentation, but it should help you get started.
 
 
 ## Additional ways to contribute
+## 其他贡献方式
 
 - To contribute to the Kubernetes community through online forums like Twitter or Stack Overflow, or learn about local meetups and Kubernetes events, visit the [Kubernetes community site](/community/).
-- To contribute to feature development, read the [contributor cheatsheet](https://github.com/kubernetes/community/tree/master/contributors/guide/contributor-cheatsheet) to get started.
-
-{{% /capture %}}
+- To contribute to feature development, read the [contributor cheatsheet](https://github.com/kubernetes/community/tree/master/contributors/guide/contributor-cheatsheet) to get started.要通过Twitter或Stack溢流等在线论坛为Kubernetes社区做出贡献,或了解当地的聚会和库贝内特斯活动,请访问Kubernetes社区网站。
+要为功能开发做出贡献,请阅读参与者备忘单以开始使用
