@@ -8,4 +8,4 @@ permalink: pretty
 
 #build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
